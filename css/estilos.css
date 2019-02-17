@@ -1,0 +1,27 @@
+
+.taller{
+    background:white;
+    width: 96%;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px; 
+}
+.danza{
+    background:#CCCCCC; 
+    width: 30%;
+    height: 100%;
+}
+.musica{
+    background:#CCCCCC; 
+    width: 30%;
+    height: 100%;
+    margin-left:456px;
+    margin-top:-320px;
+}
+.pintura{
+    background:#CCCCCC; 
+    width: 30%;
+    height: 100%;
+    margin-left:906px;
+    margin-top: -320px;
+}
