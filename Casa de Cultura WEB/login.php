@@ -20,8 +20,10 @@
                 $numRegistros = $sentenciaPrep->rowCount();
                 if($numRegistros !=0)
                 {
-
-                   header("location:ver_mensajes.php");   
+                    session_start();
+                    if (!isset($_SESSION["nombre"])){
+                        header("location:ver_mensajes.php"); 
+                    }
                 }
                 else
                 {
